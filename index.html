@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Groenke | Full-stack Developer</title>
+    <link rel="shortcut icon" type="image/png" href="public/images/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,400i,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="public/stylesheets/main.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <section id="home" class="flex">
+        <div class="hero flex">
+          <h1>Hi! I'm Jorge Groenke.<br>I'm a full-stack web developer.</h1>
+          <a href="#portfolio" class="button button-big">Check out my projects</a>
+          <nav class="navbar flex">
+            <div class="logo"></div>
+            <div class="nav-links">
+              <ul>
+                <li class="nav-link">
+                  <a href="#home">Home</a>
+                </li>
+                <li class="nav-link">
+                  <a href="#about">About</a>
+                </li>
+                <li class="nav-link">
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-link">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <i class="hamburger fas fa-bars"></i>
+          </nav>
+        </div>
+      </section>
+      <section id="about">
+        <div class="section-header flex">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+          <img class="about-pic" src="public/images/IMG_4286.JPG"></img>
+        </div>
+        <div class="about-blurb">
+          <div class="about-text">
+            <p>Hey!  I'm Jorge Groenke and I'm a Full-Stack Developer from New York City.  I'm a highly motivated and driven person who is always looking for opportunities to grow as a developer and learn new things.  I love making cool web applications from front to back.  Whether they are single page, or rendered on a server, I think both methods are valuable and exciting to implement.</p>
+            <p>I've always wanted to do something that I was proud of.  To be able to say that I created something and left a mark on the world.  This led me to web development and software engineering.  I love that I am continuously challenged intellectually while also getting to flex my creative muscles.  I am currently looking for opportunities so please check out my resume and feel free to contact me!</p>
+          </div>
+          <div class="about-resume">
+            <a class="button" href="https://drive.google.com/file/d/1H6JD2qCqTLzf2e8Bed4GFSxlqdah9Opn/view?usp=sharing">Resume</a>
+          </div>
+        </div>
+        <div class="about-skills">
+            <div class="skill">
+              <h3>Skills</h3>
+              <ul class="skills">
+                <li><i class="devicon-javascript-plain"></i></li>
+                <li><i class="devicon-html5-plain-wordmark"></i></li>
+                <li><i class="devicon-css3-plain-wordmark"></i></li>
+                <li><i class="devicon-react-original-wordmark"></i></li>
+                <li><i class="devicon-sass-original"></i></li>
+                <li><i class="devicon-bootstrap-plain-wordmark"></i></li>
+                <li><i class="devicon-jquery-plain-wordmark"></i></li>
+                <li><i class="devicon-nodejs-plain-wordmark"></i></li>
+                <li><i class="devicon-express-original-wordmark"></i></li>
+                <li><i class="devicon-mongodb-plain-wordmark"></i></li>
+                <li><i class="devicon-git-plain-wordmark"></i></li>
+                <li><i class="devicon-babel-plain"></i></li>
+                <li><i class="devicon-webpack-plain-wordmark"></i></li>
+              </ul>
+            </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="section-header flex">
+          <h2>Portfolio</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="projects-container">
+          <div class="project">
+            <a class="project-pic" href="https://nameless-anchorage-56994.herokuapp.com/">
+              <img class="main-pic" src="public/images/play-home.jpg" alt="Play! Home Page"></img>
+              <img class="overlay" src="public/images/play-inside.png" alt="Play! Dashboard"></img>
+            </a>
+            <div class="project-info">
+              <small>Full-stack Application</small>
+              <h3>Play!</h3>
+              <p>Vivamus odio metus, elementum at accumsan pulvinar, suscipit nec tellus. Nulla luctus sollicitudin euismod.</p>
+            </div>
+          </div>
+          <div class="project">
+            <a class="project-pic" href="https://coolweather-b549f.firebaseapp.com/">
+              <img class="main-pic" src="public/images/weather-home.png" alt="CoolWeather Home Page"></img>
+              <img class="overlay" src="public/images/weather-inside.png" alt="CoolWeather Action"></img>
+            </a>
+            <div class="project-info">
+              <small>Single Page Application</small>
+              <h3>CoolWeather</h3>
+              <p>Vivamus odio metus, elementum at accumsan pulvinar, suscipit nec tellus. Nulla luctus sollicitudin euismod.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="contact-header flex">
+          <h2>Contact</h2>
+          <div class="underline"></div>
+          <h4>Let's get in touch!</h4>
+        </div>
+        <form class="contact-form" action="https://formspree.io/jorge.groenke@gmail.com" method="POST">
+          <div class="form-flex">
+            <div class="form-group">
+              <div class="form-input">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name" required/>
+              </div>
+              <div class="form-input">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" placeholder="Email" required/>
+              </div>
+              <div class="form-input">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="_subject" placeholder="Subject" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-input">
+                <label for="message"></label>
+                <textarea id="message" name="message" placeholder="Message" rows="9" required></textarea>
+              </div>
+            </div>
+          </div>
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="#" />
+          <div class="button-flex">
+            <input class="button" type="submit" value="Send Email"/>
+          </div>
+        </form>
+      </section>
+    </main>        
+    <footer class="footer">
+      <img class="footer-logo" src="./public/images/logo-dark.png"></img>
+      <div class="footer-wrapper">
+        <div class="copyright">
+          <p>© 2018 Jorge Groenke</p>
+        </div>
+        <nav>
+          <ul class="footer-nav">
+            <li class="footer-link">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer-link">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer-link">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="footer-link">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a class="social-link" href="https://linkedin.com/in/jorge-groenke/"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-link" href="https://github.com/jgroenke24/"><i class="fab fa-github"></i></a>
+          <a class="social-link" href="mailto:jorge.groenke@gmail.com"><i class="far fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script type="text/javascript" src="public/scripts/scripts.js"></script>
+</html>
