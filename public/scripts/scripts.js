@@ -13,7 +13,7 @@ hamburger.addEventListener('click', openMobileNav);
 navLinks.addEventListener('click', handleNavLinksClick);
 
 const navbar = document.querySelector('.navbar');
-const sticky = navbar.offsetTop;
+let sticky = window.innerHeight;
 const logo = document.querySelector('.logo');
 
 const home = document.querySelector('#home');
@@ -66,6 +66,10 @@ function contactActive() {
     contactLink.classList.remove('active');
   }
 }
+
+window.onresize = () => {
+  sticky = window.innerHeight;
+};
 
 window.onscroll = () => {
   navSticky();
