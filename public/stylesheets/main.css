@@ -381,18 +381,20 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 3rem;
   padding: 0 1rem;
+  max-width: 1000px;
+  margin: 3rem auto 0 auto;
 }
 
 .project {
   min-width: 350px;
+  max-width: 450px;
   border-radius: 6px;
   text-align: left;
   border: 1px solid #a6a4ab;
   padding: 0 1rem;
   margin: 0 1rem 4rem 1rem;
-  flex: 1 0 0;
+  flex: 1 1 0;
 }
 
 .project-pic {
