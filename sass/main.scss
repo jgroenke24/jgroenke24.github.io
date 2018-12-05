@@ -427,6 +427,19 @@ p {
   }
 }
 
+.project-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: $info;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  span {
+    color: rgba($info, .7);
+  }
+}
+
 .contact {
   width: 100%;
   background: $dark;
