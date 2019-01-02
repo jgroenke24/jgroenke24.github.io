@@ -81,3 +81,7 @@ window.onscroll = () => {
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('home', 'public/particles.json');
+
+const copyright = document.querySelector('.copyright-text');
+const date = new Date();
+copyright.textContent = `© ${date.getFullYear()} Jorge Groenke`;
