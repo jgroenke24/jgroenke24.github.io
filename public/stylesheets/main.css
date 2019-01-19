@@ -271,11 +271,11 @@ p {
   color: #323d4d;
 }
 .section-header .about-pic {
-  width: 100%;
-  max-width: 25rem;
-  height: auto;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
   margin-bottom: 7rem;
+  object-fit: cover;
 }
 .section-header .underline {
   height: 2.5px;
