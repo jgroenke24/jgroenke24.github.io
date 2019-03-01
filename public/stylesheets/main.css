@@ -426,6 +426,10 @@ p {
 
 .project-info {
   padding: 2rem 1rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .project-info small {
   color: #4db4ca;
@@ -439,6 +443,20 @@ p {
 }
 .project-info p {
   font-size: 1.4rem;
+}
+.project-info a {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgba(50, 61, 77, 0.7);
+  transition: 0.2s ease color;
+}
+.project-info a:hover {
+  color: #323d4d;
+}
+.project-info a i {
+  margin-right: 1rem;
 }
 
 .project-title {
